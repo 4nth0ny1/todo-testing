@@ -1,3 +1,4 @@
+/* eslint-disable testing-library/no-unnecessary-act */
 import { render, screen, act } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import CreateTodo from "./CreateTodo";
